@@ -1,1 +1,0 @@
-export default function ClientHeader({ client }) { return ( <div className="mb-8"><h1 className="text-3xl font-bold text-gray-900 dark:text-white">{client.name}</h1><p className="mt-2 text-gray-600 dark:text-gray-400">Contact: {client.contactPerson}, {client.contactRole}</p><p className="text-gray-600 dark:text-gray-400">{client.email} • {client.phone}</p></div> ) }
